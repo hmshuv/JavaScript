@@ -1,8 +1,11 @@
-const student = {
-    name: "himanshu",
-    marks: 44,
-    printMarks: function(){
-        console.log("marks : ", this.marks);
+const employee = {
+    calcTax(){
+        console.log("tax rate is 10%");
     },
 };
-console.log(student);
+
+const himanshu = {
+    salary: 500000,
+}
+
+himanshu.__proto__ = employee;
