@@ -54,4 +54,8 @@ body{
     font-size: 1.25rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
+    
+}
+.msg-container-hide{
+    display: none;
 }
