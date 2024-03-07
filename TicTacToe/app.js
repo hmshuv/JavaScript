@@ -1,5 +1,5 @@
-let boxes = document.querySelectorAll(".box");
-let reset = document.querySelector("#reset-btn"); // Corrected the ID to reset-btn
+let boxes = document.querySelectorAll(".box");  // '.' for defining class
+let reset = document.querySelector("#reset-btn");  // '#' for defining id
 let msgContainer = document.querySelector(".msg-container-hide");
 let winnerMsg = document.querySelector("#msg");
 let newButton = document.querySelector(".new-btn")
